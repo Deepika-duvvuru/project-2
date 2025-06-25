@@ -135,6 +135,15 @@
     .item_div:hover{
       background-color: red;
     }
+    .card-container {
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+    }
+.card-wrapper {
+   display: flex;
+ }
     
   </style>
 </head>
@@ -275,6 +284,37 @@
       </div>
     </div>
     <h3 class="text-center mt-3">Featured Products</h3>
+    <div class="container my-5">
+    <div class="card-container">
+      <div class="card-wrapper">
+        <div class="card p-3 ps-5 me-2 bg-dark text-white" style="width: 14rem;">
+          <p class="opacity-75 mb-5">JBL Endurance Run Sports</p>
+          <img src="/images/products/boat255r-1.png" class="card-img-top w-75 mb-4" alt="JBL Endurance Run Sports">
+          <p class="ms-5"><i class="fa-solid fa-indian-rupee-sign  "></i>999 <del><i class="fa-solid fa-indian-rupee-sign"></i>1,599</del></p>
+        </div>
+        <div class="card p-3 ps-5  me-2 bg-dark text-white" style="width: 14rem;">
+          <p class="opacity-75 mb-5">boAt Airdopes 203</p>
+          <img src="/images/products/jbl-endu-3.png" class="card-img-top w-75 mb-4 " alt="JBL Endurance Run Sports">
+          <p class="ms-5"><i class="fa-solid fa-indian-rupee-sign"></i>1,074 <del><i class="fa-solid fa-indian-rupee-sign"></i>3,999</del></p>
+        </div>
+        <div class="card p-3 ps-5 me-2 bg-dark text-white" style="width: 14rem;">
+          <p class="opacity-75 mb-5">boAt Rockerz 518</p>
+          <img src="/images/products/boat203-1.png" class="card-img-top w-75 mb-4" alt="JBL Endurance Run Sports">
+          <p class="ms-5"><i class="fa-solid fa-indian-rupee-sign"></i>1,299 <del><i class="fa-solid fa-indian-rupee-sign"></i>3,990</del></p>
+        </div>
+        <div class="card p-3 ps-5 me-2 bg-dark text-white" style="width: 14rem;">
+          <p class="opacity-75 mb-5">JBL Tune 760NC</p>
+          <img src="/images/products/boat518-1.png" class="card-img-top w-75 mb-4" alt="JBL Endurance Run Sports">
+          <p class="ms-5"><i class="fa-solid fa-indian-rupee-sign "></i>5,999 <del><i class="fa-solid fa-indian-rupee-sign"></i>7,999</del></p>
+        </div>
+        <div class="card p-3 ps-5  me-2 bg-dark text-white" style="width: 14rem;">
+          <p class="opacity-75 mb-5">boAt Rockerz 255</p>
+          <img src="/images/products/jbl760nc-1.png" class="card-img-top w-75 mb-4" alt="JBL Endurance Run Sports">
+          <p class="ms-5"><i class="fa-solid fa-indian-rupee-sign"></i>899 <del><i class="fa-solid fa-indian-rupee-sign"></i>2,990</del></p>
+        </div>
+      </div>
+    </div>
+  </div>
     <h3 class="text-center mt-3">Top Products</h3>
     <div class=" p-4 ps-5">
       <ul class=" d-flex justify-content-around  ps-5 pe-5 list-unstyled ">
@@ -290,8 +330,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/jbl660nc-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body bg-black mt-2">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">JBL Live 660NC</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">JBL Live 660NC</h5>
             <p class="card-text over text-white opacity-75">Wireless Over-Ear NC Headphones</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>9,999 <del><i
@@ -302,8 +342,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/boat518-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body bg-black mt-2">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">boAt Rockerz 518</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">boAt Rockerz 518</h5>
             <p class="card-text over text-white opacity-75 mt-1"> On-Ear Wireless Headphones</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>1,299 <del><i
@@ -314,8 +354,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/boat131-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">boAt Airdopes 131</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">boAt Airdopes 131</h5>
             <p class="card-text over text-white opacity-75 mt-1">Wireless In-Ear Earbuds</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>1,099 <del><i
@@ -326,8 +366,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/boat110-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">boAt BassHeads 110</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">boAt BassHeads 110</h5>
             <p class="card-text over text-white opacity-75 mt-1">In-Ear wired Earphones</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>449 <del><i
@@ -338,8 +378,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/boat410-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">boAt Rockerz 410</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">boAt Rockerz 410</h5>
             <p class="card-text over text-white opacity-75 ">Bluetooth& Wired ON-Ear Headphones</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>1,599 <del><i
@@ -350,8 +390,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/jbl200bt-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">JBL Live 200BT</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">JBL Live 200BT</h5>
             <p class="card-text over text-white opacity-75 mt-1">In-Ear Wireless Neckbands</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>3,699 <del><i
@@ -362,8 +402,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/sonyXb910n-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">Sony WH-XB910N</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">Sony WH-XB910N</h5>
             <p class="card-text over text-white opacity-75">Wireless Over-Ear Headphones</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>13,489 <del><i
@@ -374,8 +414,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/jbl760nc-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">JBL Tune 760NC</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">JBL Tune 760NC</h5>
             <p class="card-text over text-white opacity-75">Wireless Over-Ear NC Headphones</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>5,999 <del><i
@@ -386,8 +426,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/boat255r-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">boAt Rockerz 255</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">boAt Rockerz 255</h5>
             <p class="card-text over text-white opacity-75 mt-1"> In-Ear Wireless Neckbands</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>899 <del><i
@@ -398,8 +438,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/jbl100-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">JBL Waves 100</h5>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">JBL Waves 100</h5>
             <p class="card-text over text-white opacity-75 mt-1">In-Ear Tuny Wireless Earbuds</p>
             <hr class="text-white">
             <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>2,999 <del><i
@@ -410,8 +450,8 @@
         <div class="card pt-2 bg-dark border border-secondary" style="max-width: 300px;">
           <img src="/images/products/sony1000xm4-1.png" class="card-img-top w-50" alt="JBL Live 660NC">
           <div class="card-body mt-2 bg-black">
-            <h5 class="card-title text-danger star">*</h5>
-            <h5 class="live text-white">Sony WF-1000XM4</h4>
+            <h5 class="card-title text-danger star"><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i><i class="fa-solid fa-star text-danger"></i></h5>
+            <h5 class="live text-white mt-2">Sony WF-1000XM4</h4>
               <p class="card-text over text-white opacity-75 ">Wireless In-Ear NC Headphones</p>
               <hr class="text-white">
               <p class="noise text-white"><i class="fa-solid fa-indian-rupee-sign"></i>19,999 <del><i
